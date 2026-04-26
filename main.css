@@ -1,0 +1,122 @@
+body {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: #e7e6e2;
+  position: relative;
+  box-shadow: 0 10px 30px black;
+  overflow: hidden;
+}
+
+.shape {
+  position: absolute;
+}
+
+#one {
+  background-color: #8b2020;
+  width: 150px;
+  height: 150px;
+  top: 85px;
+  left: 110px;
+  z-index: 3;
+  transform: rotate(10deg);
+}
+#two {
+  background-color: #2e7d32;
+  width: 230px;
+  height: 60px;
+  bottom: 250px;
+  right: 120px;
+  z-index: 2;
+  transform: rotate(10deg);
+}
+#three {
+  background-color: #1f1f49;
+  display: inline-block;
+  width: 700px;
+  height: 15px;
+  top: 46.5%;
+  left: 10%;
+  z-index: 1;
+  transform: rotate(10deg);
+}
+#four {
+  background-color: #dac510;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  top: 185px;
+  left: 320px;
+  z-index: 0;
+}
+#five {
+  background-color: #7d417d;
+  width: 500px;
+  height: 10px;
+  top: 80%;
+  left: -50px;
+  transform: rotate(-5deg);
+  z-index: 0;
+}
+#six {
+  background-color: #5dccff;
+  width: 20px;
+  height: 1000px;
+  top: -20px;
+  right: 150px;
+  z-index: 1;
+  transform: rotate(10deg);
+}
+#seven {
+  background-color: #e67e22;
+  width: 40px;
+  height: 40px;
+  top: 61%;
+  left: 67.7%;
+  z-index: 5;
+  transform: rotate(10deg);
+}
+#eight {
+  background-color: #000000;
+  width: 400px;
+  height: 15px;
+  bottom: 100px;
+  left: 25%;
+  z-index: 2;
+  transform: rotate(45deg) skewX(-35deg);
+}
+#nine {
+  background-color: #c99057;
+  width: 220px;
+  height: 40px;
+  bottom: 40px;
+  right: 25px;
+  z-index: 1;
+  transform: rotate(-90deg) skewY(10deg);
+}
+#ten {
+  background-color: #59433c;
+  width: 2px;
+  height: 550px;
+  top: 33%;
+  left: 30%;
+  z-index: 0;
+  transform: rotate(-95deg);
+}
+#eleven {
+  background-color: #cc8322;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 195px;
+  left: 400px;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+}
